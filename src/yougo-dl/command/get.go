@@ -20,7 +20,7 @@ func (c *GetCommand) Run(args []string) int {
 }
 
 func (c *GetCommand) Synopsis() string {
-	return ""
+	return "Get youtube video [YOUTUBE_ID] [OUTPUT_FILE.(mp4|3gp|flv|webm|avi)]"
 }
 
 func (c *GetCommand) Help() string {
